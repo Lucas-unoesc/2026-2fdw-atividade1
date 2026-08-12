@@ -1,3 +1,16 @@
 body {
       background-color: lightblue;
 }
+
+header {
+      background-color: lightgray;
+
+}
+
+main {
+    background-color: aqua;
+}
+
+div {
+    background-color: azure;
+}
