@@ -1,16 +1,34 @@
+/* Configuração geral para o site */
 body {
-      background-color: lightblue;
+    background-color: #e0f2fe; /* Azul bem suave e agradável */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e293b; /* Texto escuro para boa leitura */
+    margin: 20px;
 }
 
+/* Cabeçalho */
 header {
-      background-color: lightgray;
-
+    background-color: #0284c7; /* Azul escuro com bom contraste para texto branco */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
 }
 
+/* Conteúdo Principal */
 main {
-    background-color: aqua;
+    background-color: #ffffff; /* Fundo branco limpo para o texto principal */
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Sombra leve para dar profundidade */
 }
 
-div {
-    background-color: azure;
+/* Em vez de 'div', use uma classe para os seus blocos/cards */
+.card {
+    background-color: #f0f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #bae6fd;
+    margin-top: 15px;
 }
